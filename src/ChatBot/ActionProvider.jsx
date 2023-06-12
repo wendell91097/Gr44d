@@ -81,7 +81,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
 
   const handleAnime = () => {
     const botMessage = createChatBotMessage(
-        "Here's an anime quote for you."
+        "This function is no longer available."
         )
     console.log('anime message')
     setState((prev) => ({

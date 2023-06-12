@@ -4,7 +4,7 @@ const MessageParser = ({ children, actions }) => {
   const parse = (message) => {
     let unknown = true
     console.log(message)
-    if (message.includes('hello')){ 
+    if (message.includes('hello')|message.includes('hi')|message.includes('hey')||message.includes('yo')){ 
       unknown = false  
       actions.handleHello();
     }
