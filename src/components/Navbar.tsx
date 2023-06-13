@@ -9,7 +9,8 @@ function Navbar() {
 
     const signOutOnClick = () => {
         signOut(auth)
-        location.reload();
+        location.replace("")
+        ;
     }
 
     const signInOnClick = async () => {
